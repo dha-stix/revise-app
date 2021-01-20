@@ -1,0 +1,15 @@
+.lazyload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #f2f4f9;
+}
+.lazyload > h2 {
+  color: #2b251d;
+  font-size: 30px;
+  font-family: "Satisfy", cursive;
+  margin-top: 20px;
+}
