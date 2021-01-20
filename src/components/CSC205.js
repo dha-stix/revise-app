@@ -46,9 +46,9 @@ const CSC205 = () => {
                 {nav && (
                     <div className="hamburger--nav">
                         <Link to="/" className="nav--home">Home</Link>
-                        <Link to="/" className="nav--course">CSC 205</Link>
-                        <Link to="/"  className="nav--course">CSC 207</Link>
-                        <Link to="/" className="nav--course">GNS 201</Link>
+                        <Link to="/question/CSC205" className="nav--course">CSC 205</Link>
+                        <Link to="/question/CSC207"  className="nav--course">CSC 207</Link>
+                        <Link to="/question/GNS201" className="nav--course">GNS 201</Link>
                     </div>
                 )}
                 
