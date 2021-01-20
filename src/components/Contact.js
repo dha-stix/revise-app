@@ -11,7 +11,11 @@ const Contact = () => {
         <h2 className="contact--header">Team</h2>
         <div className="contact">
         
-          <div className="contact--card card--david">
+          <div className="contact--card card--david" data-aos="fade-right" data-aos-offset="20"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
 
             <div className="contact--imgContainer">
               <img src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairDreads01&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Wink&eyebrowType=Default&mouthType=Default&skinColor=Light" alt="David - Developer" className="contact--img" />
@@ -37,7 +41,11 @@ const Contact = () => {
             
           </div>
        
-          <div className="contact--card">
+          <div className="contact--card" data-aos="fade-left" data-aos-offset="20"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
 
             <div className="contact--imgContainer">
               <img  className="contact--img" src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairNotTooLong&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=Hoodie&clotheColor=Blue03&eyeType=Wink&eyebrowType=Default&mouthType=Default&skinColor=Light" alt="Favour - Designer" />

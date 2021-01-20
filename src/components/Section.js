@@ -23,7 +23,11 @@ const Section = () => {
     return (
         <section className="courses">
             <h2 className="courses--header">Courses Available</h2>
-            <div className="course">
+            <div className="course " data-aos="fade-up" data-aos-offset="50"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
             {
                 courses.map(course => (
                     <div className="course--list" key={course.id}>
