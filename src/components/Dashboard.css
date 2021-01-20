@@ -146,4 +146,7 @@
     font-size: 1.6rem;
     text-decoration: none;
   }
+  .body--questionsBtn > button {
+    width: 100px;
+  }
 }
