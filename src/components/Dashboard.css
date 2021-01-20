@@ -146,6 +146,8 @@
     font-size: 1.6rem;
     text-decoration: none;
   }
+}
+@media screen and (max-width: 400px) {
   .body--questionsBtn > button {
     width: 100px;
   }
