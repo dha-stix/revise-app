@@ -8,6 +8,7 @@ const DashNav = () => {
                 <Link to="/question/CSC205" className="nav--course">CSC 205</Link>
                 <Link to="/question/CSC207"  className="nav--course">CSC 207</Link>
                 <Link to="/question/GNS201" className="nav--course">GNS 201</Link>
+                <Link to="/question/CSC203" className="nav--course">CSC203</Link>
             </div>
     )
 }

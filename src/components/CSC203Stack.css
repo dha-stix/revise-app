@@ -1,0 +1,32 @@
+.headings {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  width: 95%;
+  margin: auto auto 15px auto;
+  border: 1px solid rgb(160, 157, 157);
+}
+.heading > button {
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+  color: #1d1d1f;
+  border: none;
+}
+
+.ques > * {
+  margin: 15px;
+}
+.binary {
+  padding: 15px;
+}
+#number {
+  margin-right: 5px;
+}
+.binary > * {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
