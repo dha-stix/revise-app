@@ -4,6 +4,12 @@ import {Link} from "react-router-dom"
 const Section = () => {
     const courses = [
         {
+            id: 4,
+            course : "ECN214",
+            link : "/question/ECN214",
+            action: "TAKE TEST"
+        },
+        {
             id: 1,
             course : "GNS 201",
             link : "/question/GNS201",
@@ -20,12 +26,6 @@ const Section = () => {
             course : "CSC205",
             link : "/question/CSC205",
             action: "TAKE TEST"
-        },
-        {
-            id: 4,
-            course : "CSC203",
-            link : "/question/CSC203",
-            action: "VIEW KEYPOINTS"
         }
     ]
 
