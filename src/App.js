@@ -9,7 +9,7 @@ const Homepage =  lazy(()=> import("./components/Homepage"))
 const GNS201 =  lazy(()=> import("./components/GNS201"))
 const CSC205 =  lazy(()=> import("./components/CSC205"))
 const CSC207 =  lazy(()=> import("./components/CSC207"))
-const CSC203 =  lazy(()=> import("./components/CSC203"))
+const ECN214 =  lazy(()=> import("./components/ECN214"))
 
 
 
@@ -21,7 +21,9 @@ function App() {
     <Route exact path="/">
     <Homepage />
     </Route>
-
+    <Route  path="/question/ECN214">
+      <ECN214 />
+    </Route> 
      <Route  path="/question/CSC205">
     <CSC205 />
     </Route>
@@ -31,9 +33,7 @@ function App() {
     <Route  path="/question/GNS201">
       <GNS201 />
     </Route>  
-    <Route  path="/question/CSC203">
-      <CSC203 />
-    </Route>  
+     
     <Route>
       <FourOFour />
     </Route>    
